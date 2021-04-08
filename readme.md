@@ -1,6 +1,6 @@
 # FLAME GPU Website
 
-This repository contains the source for the FLAME GPU website, built with [Jekyll](https://jekyllrb.com/).
+This repository contains the source for the FLAME GPU website, built with [Jekyll](https://jekyllrb.com/), and using the [Minimal Mistakes theme](https://github.com/mmistakes/minimal-mistakes).
 
 The website is hosted on GitHub Pages and can be found at [https://flamegpu.github.io](https://flamegpu.github.io).
 
