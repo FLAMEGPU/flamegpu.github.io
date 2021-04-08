@@ -1,0 +1,26 @@
+name: build 
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: 2.6.x
+
+      - name: Setup Rubygems, Bundler, jekyll
+        run: |
+          gem update --system --no-document
+          gem update bundler --no-document
+          gem install jekyll bundler
+          bundle config set path vendor/bundle
+          bundle install
+
+      - name: Build the website.
+        run: bundle exec jekyll build --drafts
+    
