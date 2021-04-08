@@ -1,0 +1,15 @@
+# main links
+main:
+  - title: "Download"
+    url: /download/
+  - title: "About"
+    url: /about/
+  # - title: "Projects"
+  #  url: /projects/
+  - title: "Models"
+    url: /models/
+  - title: "Documentation"
+    url: /documentation/
+  - title: "Contact"
+    url: /contact/
+      

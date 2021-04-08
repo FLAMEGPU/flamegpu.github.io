@@ -1,0 +1,215 @@
+- author_id:
+  - fLS64xsAAAAJ
+  - 9YfmLGcAAAAJ
+  - ihmxNfcAAAAJ
+  bib:
+    abstract: Driven by the availability of experimental data and ability to simulate
+      a biological scale which is of immediate interest, the cellular scale is fast
+      emerging as an ideal candidate for middle-out modelling. As with 'bottom-up'simulation
+      approaches, cellular level simulations demand a high degree of computational
+      power, which in large-scale simulations can only be achieved through parallel
+      computing. The flexible large-scale agent modelling environment (FLAME) is a
+      template driven framework for agent-based modelling (ABM) on parallel
+    author: Richmond, Paul and Walker, Dawn and Coakley, Simon and Romano, Daniela
+    bib_id: richmond2010high
+    journal: Briefings in bioinformatics
+    number: '3'
+    pages: 334--347
+    pub_type: article
+    pub_year: '2010'
+    publisher: Oxford University Press
+    title: High performance cellular level agent-based simulation with FLAME for the
+      GPU
+    venue: "Briefings in \u2026"
+    volume: '11'
+  citedby_url: /scholar?cites=4648250152582460987&as_sdt=5,33&sciodt=0,33&hl=en
+  container_type: Publication
+  eprint_url: https://academic.oup.com/bib/article/11/3/334/225993
+  filled: true
+  gsrank: 1
+  num_citations: 199
+  pub_url: https://academic.oup.com/bib/article-abstract/11/3/334/225993
+  source: &id001 !!python/object/apply:scholarly.data_types.PublicationSource
+  - 1
+  url_add_sclib: /citations?hl=en&xsrf=&continue=/scholar%3Fq%3DHigh%2Bperformance%2Bcellular%2Blevel%2Bagent-based%2Bsimulation%2Bwith%2BFLAME%2Bfor%2Bthe%2BGPU%26hl%3Den%26as_sdt%3D0,33&citilm=1&json=&update_op=library_add&info=OzbV4-LmgUAJ&ei=ys9cYJ2mFsyMywTLrpy4Dg
+  url_related_articles: /scholar?q=related:OzbV4-LmgUAJ:scholar.google.com/&scioq=High+performance+cellular+level+agent-based+simulation+with+FLAME+for+the+GPU&hl=en&as_sdt=0,33
+  url_scholarbib: /scholar?q=info:OzbV4-LmgUAJ:scholar.google.com/&output=cite&scirp=0&hl=en
+- author_id:
+  - QlT-EWQAAAAJ
+  - fLS64xsAAAAJ
+  - nfPD2H8AAAAJ
+  - VSeWDS8AAAAJ
+  bib:
+    abstract: High performance computing is essential for simulating complex problems
+      using agent-based modelling (ABM). Researchers are hindered by complexities
+      of porting models on parallel platforms and time taken to run large simulations
+      on a single machine. This paper presents FLAME framework, the only supercomputing
+      framework which automatically produces parallelisable code to execute on different
+      parallel hardware architectures. FLAME's inherent parallelism allows large number
+      of agents to be simulated in less time
+    author: Kiran, Mariam and Richmond, Paul and Holcombe, Mike and Chin, Lee Shawn
+      and Worth, David and Greenough, Chris
+    bib_id: kiran2010flame
+    booktitle: 'Proceedings of the 9th International Conference on Autonomous Agents
+      and Multiagent Systems: volume 1-Volume 1'
+    pages: 1633--1636
+    pub_type: inproceedings
+    pub_year: '2010'
+    title: 'FLAME: simulating large populations of agents on parallel hardware architectures'
+    venue: "Proceedings of the 9th \u2026"
+  citedby_url: /scholar?cites=12156220845869519897&as_sdt=5,33&sciodt=0,33&hl=en
+  container_type: Publication
+  eprint_url: http://ifaamas.org/Proceedings/aamas2010/pdf/04%20Demos/D-10.pdf
+  filled: true
+  gsrank: 1
+  num_citations: 115
+  pub_url: http://ifaamas.org/Proceedings/aamas2010/pdf/04%20Demos/D-10.pdf
+  source: *id001
+  url_add_sclib: /citations?hl=en&xsrf=&continue=/scholar%3Fq%3DFLAME:%2Bsimulating%2Blarge%2Bpopulations%2Bof%2Bagents%2Bon%2Bparallel%2Bhardware%2Barchitectures%26hl%3Den%26as_sdt%3D0,33&citilm=1&json=&update_op=library_add&info=GVRA8XOSs6gJ&ei=9c9cYLH7GZLKyQST_oTwAQ
+  url_related_articles: /scholar?q=related:GVRA8XOSs6gJ:scholar.google.com/&scioq=FLAME:+simulating+large+populations+of+agents+on+parallel+hardware+architectures&hl=en&as_sdt=0,33
+  url_scholarbib: /scholar?q=info:GVRA8XOSs6gJ:scholar.google.com/&output=cite&scirp=0&hl=en
+- author_id:
+  - fLS64xsAAAAJ
+  - ihmxNfcAAAAJ
+  - zQGPbqcAAAAJ
+  bib:
+    abstract: We present an efficient implementation of a high performance parallel
+      framework for Agent Based Modelling (ABM), exploiting the parallel architecture
+      of the Graphics Processing Unit (GPU). It provides a mapping between formal
+      agent specifications, with C based scripting, and optimised NVIDIA Compute Unified
+      Device Architecture (CUDA) code. The mapping of agent data structures and agent
+      communication is described, and our work is evaluated through a number of simple
+      interacting agent examples. In contrast with an alternative
+    author: Richmond, Paul and Coakley, Simon and Romano, Daniela M
+    bib_id: richmond2009high
+    booktitle: Proceedings of The 8th International Conference on Autonomous Agents
+      and Multiagent Systems-Volume 2
+    pages: 1125--1126
+    pub_type: inproceedings
+    pub_year: '2009'
+    title: A high performance agent based modelling framework on graphics card hardware
+      with CUDA
+    venue: "Proceedings of The 8th \u2026"
+  citedby_url: /scholar?cites=7534646238843853559&as_sdt=5,33&sciodt=0,33&hl=en
+  container_type: Publication
+  eprint_url: https://www.cs.huji.ac.il/~jeff/aamas09/pdf/02_Extended_Abstract/A_SP_0201.pdf
+  filled: true
+  gsrank: 1
+  num_citations: 97
+  pub_url: https://www.cs.huji.ac.il/~jeff/aamas09/pdf/02_Extended_Abstract/A_SP_0201.pdf
+  source: *id001
+  url_add_sclib: /citations?hl=en&xsrf=&continue=/scholar%3Fq%3DA%2Bhigh%2Bperformance%2Bagent%2Bbased%2Bmodelling%2Bframework%2Bon%2Bgraphics%2Bcard%2Bhardware%2Bwith%2BCUDA%26hl%3Den%26as_sdt%3D0,33&citilm=1&json=&update_op=library_add&info=91qFftVwkGgJ&ei=EtBcYMP0GsyMywTLrpy4Dg
+  url_related_articles: /scholar?q=related:91qFftVwkGgJ:scholar.google.com/&scioq=A+high+performance+agent+based+modelling+framework+on+graphics+card+hardware+with+CUDA&hl=en&as_sdt=0,33
+  url_scholarbib: /scholar?q=info:91qFftVwkGgJ:scholar.google.com/&output=cite&scirp=0&hl=en
+- author_id:
+  - fLS64xsAAAAJ
+  - zQGPbqcAAAAJ
+  bib:
+    abstract: Publisher Summary This chapter describes a number of key techniques
+      that are used to implement a flexible agent-based modeling (ABM) framework entirely
+      on the GPU in CUDA. Performance rates, which is better than high-performance
+      computing (HPC) clusters, can easily be achieved. Agent-based modeling is a
+      technique for computational simulation of complex interacting systems through
+      the specification of the behavior of a number of autonomous individuals acting
+      simultaneously. The focus on individuals is considerably
+    author: Richmond, Paul and Romano, Daniela
+    bib_id: richmond2011template
+    booktitle: GPU Computing Gems Emerald Edition
+    pages: 313--324
+    pub_type: incollection
+    pub_year: '2011'
+    publisher: Elsevier
+    title: Template-driven agent-based modeling and simulation with CUDA
+    venue: GPU Computing Gems Emerald Edition
+  citedby_url: /scholar?cites=11681395039537690792&as_sdt=5,33&sciodt=0,33&hl=en
+  container_type: Publication
+  eprint_url: http://paulrichmond.shef.ac.uk/cv/publications/GPUGems.pdf
+  filled: true
+  gsrank: 1
+  num_citations: 31
+  pub_url: https://www.sciencedirect.com/science/article/pii/B9780123849885000218
+  source: *id001
+  url_add_sclib: /citations?hl=en&xsrf=&continue=/scholar%3Fq%3DTemplate-driven%2Bagent-based%2Bmodeling%2Band%2Bsimulation%2Bwith%2BCUDA%26hl%3Den%26as_sdt%3D0,33&citilm=1&json=&update_op=library_add&info=qHin1OWmHKIJ&ei=LNBcYNjXEe6C6rQPjICl2Ao
+  url_related_articles: /scholar?q=related:qHin1OWmHKIJ:scholar.google.com/&scioq=Template-driven+agent-based+modeling+and+simulation+with+CUDA&hl=en&as_sdt=0,33
+  url_scholarbib: /scholar?q=info:qHin1OWmHKIJ:scholar.google.com/&output=cite&scirp=0&hl=en
+- author_id:
+  - sl9I1qsAAAAJ
+  - fLS64xsAAAAJ
+  bib:
+    abstract: Agent Based Modelling (ABM) is an approach for modelling dynamic systems
+      and studying complex and emergent behaviour. ABMs have been widely applied in
+      diverse disciplines including biology, economics, and social sciences. The scalability
+      of ABM simulations is typically limited due to the computationally expensive
+      nature of simulating a large number of individuals. As such, large scale ABM
+      simulations are excellent candidates to apply parallel computing approaches
+      such as Graphics Processing Units (GPUs). In this
+    author: Chimeh, Mozhgan K and Richmond, Paul
+    bib_id: chimeh2018simulating
+    journal: Simulation Modelling Practice and Theory
+    pages: 3--17
+    pub_type: article
+    pub_year: '2018'
+    publisher: Elsevier
+    title: Simulating heterogeneous behaviours in complex systems on GPUs
+    venue: Simulation Modelling Practice and Theory
+    volume: '83'
+  citedby_url: /scholar?cites=15222379809045822807&as_sdt=5,33&sciodt=0,33&hl=en
+  container_type: Publication
+  eprint_url: https://www.sciencedirect.com/science/article/pii/S1569190X18300170
+  filled: true
+  gsrank: 1
+  num_citations: 14
+  pub_url: https://www.sciencedirect.com/science/article/pii/S1569190X18300170
+  source: *id001
+  url_add_sclib: /citations?hl=en&xsrf=&continue=/scholar%3Fq%3DSimulating%2Bheterogeneous%2Bbehaviours%2Bin%2Bcomplex%2Bsystems%2Bon%2BGPUs%26hl%3Den%26as_sdt%3D0,33&citilm=1&json=&update_op=library_add&info=Vz1B4sjBQNMJ&ei=N9BcYLPXH8yMywTLrpy4Dg
+  url_related_articles: /scholar?q=related:Vz1B4sjBQNMJ:scholar.google.com/&scioq=Simulating+heterogeneous+behaviours+in+complex+systems+on+GPUs&hl=en&as_sdt=0,33
+  url_scholarbib: /scholar?q=info:Vz1B4sjBQNMJ:scholar.google.com/&output=cite&scirp=0&hl=en
+- author_id:
+  - fLS64xsAAAAJ
+  bib:
+    author: Richmond, Paul
+    bib_id: richmond2011flame
+    journal: Department of Computer Science, University of Sheffield, Tech. Rep
+    pub_type: article
+    pub_year: '2011'
+    title: FLAME GPU technical report and user guide (CS-11-03)
+    venue: NA
+  citedby_url: /scholar?cites=16261239124043833035&as_sdt=5,33&sciodt=0,33&hl=en
+  container_type: Publication
+  filled: true
+  gsrank: 1
+  num_citations: 12
+  source: *id001
+  url_add_sclib: /citations?hl=en&xsrf=&continue=/scholar%3Fq%3DFLAME%2BGPU%2Btechnical%2Breport%2Band%2Buser%2Bguide%2B(CS-11-03)%26hl%3Den%26as_sdt%3D0,33&citilm=1&json=&update_op=library_add&info=yx5R3NOGq-EJ&ei=QNBcYPHeCZLKyQST_oTwAQ
+  url_related_articles: /scholar?q=related:yx5R3NOGq-EJ:scholar.google.com/&scioq=FLAME+GPU+technical+report+and+user+guide+(CS-11-03)&hl=en&as_sdt=0,33
+  url_scholarbib: /scholar?q=info:yx5R3NOGq-EJ:scholar.google.com/&output=cite&scirp=0&hl=en
+- author_id:
+  - fLS64xsAAAAJ
+  bib:
+    abstract: Agents within multi-agent simulation environments frequently compete
+      for limited resources, requiring negotiation to resolve 'conflict'. The negotiation
+      process for resolving conflict often relies on a transactional or serial processes
+      that complicates implementation within a parallel simulation framework. This
+      paper demonstrates how transactional events to resolve competition can be implemented
+      within a parallel simulation framework (FLAME GPU) as a series of iterative
+      parallel agent functions. A sugarscape model where agents compete for
+    author: Richmond, Paul
+    bib_id: richmond2014resolving
+    booktitle: European Conference on Parallel Processing
+    organization: Springer
+    pages: 383--394
+    pub_type: inproceedings
+    pub_year: '2014'
+    title: Resolving conflicts between multiple competing agents in parallel simulations
+    venue: European Conference on Parallel Processing
+  citedby_url: /scholar?cites=12097364309978289140&as_sdt=5,33&sciodt=0,33&hl=en
+  container_type: Publication
+  eprint_url: https://link.springer.com/content/pdf/10.1007/978-3-319-14325-5_33.pdf
+  filled: true
+  gsrank: 1
+  num_citations: 10
+  pub_url: https://link.springer.com/chapter/10.1007/978-3-319-14325-5_33
+  source: *id001
+  url_add_sclib: /citations?hl=en&xsrf=&continue=/scholar%3Fq%3DResolving%2Bconflicts%2Bbetween%2Bmultiple%2Bcompeting%2Bagents%2Bin%2Bparallel%2Bsimulations%26hl%3Den%26as_sdt%3D0,33&citilm=1&json=&update_op=library_add&info=9JO-zr544qcJ&ei=R9BcYNvXNeiN6rQPlPCb0Ac
+  url_related_articles: /scholar?q=related:9JO-zr544qcJ:scholar.google.com/&scioq=Resolving+conflicts+between+multiple+competing+agents+in+parallel+simulations&hl=en&as_sdt=0,33
+  url_scholarbib: /scholar?q=info:9JO-zr544qcJ:scholar.google.com/&output=cite&scirp=0&hl=en

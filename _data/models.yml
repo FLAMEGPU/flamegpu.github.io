@@ -1,0 +1,24 @@
+- name: "Boids Spatial"
+  description: "Simple Boids flocking model using spatial message communication"
+  image_url:
+  video_url:
+  download_url:
+  language: C++
+- name: "Boids Brute Force"
+  description: "Simple Boids flocking model using brute force message communication"
+  image_url:
+  video_url:
+  download_url:
+  language: C++
+- name: "PyBoids Spatial"
+  description: "Simple Boids flocking model using spatial message communication"
+  image_url:
+  video_url:
+  download_url:
+  language: Python
+- name: "Circles Benchmark"
+  description: "A circles benchmark model"
+  image_url:
+  video_url:
+  download_url:
+  language: C++
