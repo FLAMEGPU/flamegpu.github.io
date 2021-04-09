@@ -1,24 +1,27 @@
-- name: "Boids Spatial"
-  description: "Simple Boids flocking model using spatial message communication"
-  image_url:
-  video_url:
-  download_url:
-  language: C++
-- name: "Boids Brute Force"
-  description: "Simple Boids flocking model using brute force message communication"
-  image_url:
-  video_url:
-  download_url:
-  language: C++
-- name: "PyBoids Spatial"
-  description: "Simple Boids flocking model using spatial message communication"
-  image_url:
-  video_url:
-  download_url:
-  language: Python
 - name: "Circles Benchmark"
-  description: "A circles benchmark model"
+  description: "Performance benchmarking of the Circles model using the C++ and C++ RTC interfaces and different communication strategies at various scales"
   image_url:
   video_url:
-  download_url:
+  github_url: https://github.com/flamegpu/FLAMEGPU2-concurrency-benchmark
+  language: C++
+
+- name: "Concurrency Benchmark"
+  description: "Performance benchmarking of concurrency within FLAME GPU 2"
+  image_url:
+  video_url:
+  github_url: https://github.com/flamegpu/FLAMEGPU2-circles-benchmark
+  language: C++
+
+- name: "Ensemble Benchmark"
+  description: "Demonstration of the ensembles feature of FLAME GPU 2"
+  image_url:
+  video_url:
+  github_url: https://github.com/flamegpu/FLAMEGPU2-ensemble-benchmark
+  language: C++
+
+- name: "FLAME GPU 2 Model Template"
+  description: "The template repository which can be used as a starting point for FLAME GPU 2 models"
+  image_url:
+  video_url:
+  github_url: https://github.com/flamegpu/FLAMEGPU2-example-template
   language: C++
