@@ -14,17 +14,29 @@ FLAME GPU started in the early days of general purpose computing on GPUs. GPU ha
 
 <!-- For an introduction to FLAME GPU2 and its current features please view the GTC 2021 recorded talk by Paul Richmond (embedded below). -->
 
-FLAME GPU 2 is available under a permissive MIT licence. For commercial consultancy using the software please [contact us](/contact/).
+FLAME GPU 2 is available under the permissive MIT licence. For commercial consultancy using the software please [contact us](/contact/).
 
 ## Publications
 
 There are [a number of papers](/publications/) which describe novel aspects of the way FLAME GPU has been designed and implemented. These do not include papers of specific model implementations which can generally be found in the citations section.
 
-To cite FLAME GPU 2.0 please cite this website until we publish our up to date research paper.
+To cite FLAME GPU 2.x please cite this website until we publish our up to date research paper.
 
-To cite FLAME GPU 1.0 please cite;
+To cite FLAME GPU 1.x please cite;
 
  * *Richmond, Paul and Walker, Dawn and Coakley, Simon and Romano, Daniela*, [High performance cellular level agent-based simulation with FLAME for the GPU Briefings in bioinformatics](https://academic.oup.com/bib/article-abstract/11/3/334/225993) (2010) Vol 11 Pages 334--347.
+<!-- ```
+@article{richmond2010high,
+  title={High performance cellular level agent-based simulation with FLAME for the GPU},
+  author={Richmond, Paul and Walker, Dawn and Coakley, Simon and Romano, Daniela},
+  journal={Briefings in bioinformatics},
+  volume={11},
+  number={3},
+  pages={334--347},
+  year={2010},
+  publisher={Oxford University Press}
+}
+``` -->
 
 ## Citations
 

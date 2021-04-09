@@ -46,5 +46,37 @@ The advantages of our contribution are three fold.
 This allows simulation of far larger model sizes with high performance at a fraction of the cost of grid based alternatives. 
 + Finally massive agent populations can be visualised in real time as agent data is already located on the GPU hardware.
 
-{% include feature_row %}
+<!-- {% include feature_row %} -->
+<!-- Custom feature row implementation for flexbox. -->
 
+<div class="flex_feature_container">
+
+  {% for f in feature_row %}
+    <div class="flex_feature_item">
+      {% if f.image_path %}
+        <div class="flex_feature_item_teaser">
+          <img src="{{ f.image_path | relative_url }}"
+                alt="{% if f.alt %}{{ f.alt }}{% endif %}">
+          {% if f.image_caption %}
+            <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+          {% endif %}
+        </div>
+      {% endif %}
+      <div class="flex_feature_item_body">
+        {% if f.title %}
+          <h2 class="archive__item-title">{{ f.title }}</h2>
+        {% endif %}
+        {% if f.excerpt %}
+          <div class="archive__item-excerpt">
+            {{ f.excerpt | markdownify }}
+          </div>
+        {% endif %}
+      </div>
+      <div class="flex_feature_item_footer">
+        {% if f.url %}
+          <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

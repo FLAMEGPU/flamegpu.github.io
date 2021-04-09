@@ -32,3 +32,70 @@
 .author__urls.is--visible li {
     white-space: nowrap;
 }
+
+// Flexbox based custom version of what was the feature wrapper.
+// uses the breakpoint mixings vendored in by minimal mistakes, which can be use in conjunctions with teh sizes in _variables.scss
+// $small, $medium, $medium-wide, $large, $x-large, $max-width
+
+.flex_feature_container {
+    // Below the small breakpoint do not flex.
+    display: block;
+    width: 100%;
+
+    @include breakpoint($small) {
+        // From small, flex into columns.
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .flex_feature_item {
+        @include breakpoint($small) {
+            // From small screen sizes, flex as 3 columns
+            flex: 0 0 33.3333%;
+        }
+        padding: 1em;
+        // Each item is flex internally. This allows certain elements to grow for vertical alignment. Not perfect but it works.
+        display: flex;
+        flex-direction: column;
+        
+        // Limit the image size on mobile so they aren't too tall.
+        // Not perfect, because maintaining aspect ratio is difficult... 
+        .flex_feature_item_teaser {
+            margin: auto;
+            max-width: 100%;
+            img {
+                display: block;
+                max-height: $small * 0.5;
+                @include breakpoint($small) {
+                    max-height: $medium-wide * 0.4;
+                    @include breakpoint($medium-wide) {
+                        max-height: 100%;
+                    }
+                }
+            }
+        }
+        // Let the text portion grow, so the footers are lined up.
+        .flex_feature_item_body {
+            flex-grow: 1;
+        }
+        /* .flex_feature_item_footer { 
+
+        } */
+    }
+}
+
+// Overwride to be 2 cols at small, and 3 at wide.
+.flex_feature_container.small-2-col {
+    .flex_feature_item {
+        @include breakpoint($small) {
+            flex: 0 0 50%;
+        }
+    }   
+}
+.flex_feature_container.medium-3-col {
+    .flex_feature_item {
+        @include breakpoint($medium) {
+            flex: 0 0 33.3333%;
+        }
+    }   
+}
