@@ -80,13 +80,13 @@ Then active your conda environment
 activate scholarly
 ```
 
-## Configuring the FLAME GPU papers
+### Configuring the FLAME GPU papers
 
 The title of each FLAME GPU publication is hard coded in the `citations.py` file within the `flame_pubs` array. Each of these paper titles will have the full publication details retrieved form the web which will be stored in json format within `data\publications.yml`.
 
 The 'data\citations.yml' file will be populated by retrieving papers which site any of the FLAME GPU publications (e.g. papers in `flame_pubs`). The citations are then ordered by number of citations as a rough metric of the significance of the paper (more citations is better).
 
-## Running the citations script
+### Running the citations script
 
 In order to run the citations scrip (from the activated conda environment) run the following;
 
