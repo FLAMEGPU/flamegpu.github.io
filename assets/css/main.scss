@@ -43,6 +43,18 @@
     max-height: 3rem;
 }
 
+// Some padding utility classes
+.padding-left {
+    padding-left: 1rem;
+}
+.padding-right {
+    padding-right: 1rem;
+}
+// No shadow on image anchors
+.page__content a.no-shadow:not(.btn):hover img {
+    box-shadow: none;
+}
+
 // Flexbox based custom version of what was the feature wrapper.
 // uses the breakpoint mixings vendored in by minimal mistakes, which can be use in conjunctions with teh sizes in _variables.scss
 // $small, $medium, $medium-wide, $large, $x-large, $max-width

@@ -10,7 +10,7 @@ FLAME GPU started in the early days of general purpose computing on GPUs. GPU ha
 
  * **Support for Big GPUs** - Support for concurrent execution of agents functions which ensures that heterogenous models do not necessarily result in poor device utilisation. 
  * **Model Ensembles** - The ability to run ensembles of models. I.e. the same model with different parameters or random seeds. This is necessary within stochastic simulation and FLAME GPU allows the specification of ensembles to occupy multiple devices on a single computing node.
- * **Sub models** - Certain behaviours in FLAME GPU require iterative processes to ensure reproducibility with serial counterparts (e.g. conflict resolution for resources). FLAME GPU 2 allows re-suable sub models to be described for such behaviours so that it can be abstracted from the rest of the model function.
+ * **Sub models** - Certain behaviours in FLAME GPU require iterative processes to ensure reproducibility with serial counterparts (e.g. conflict resolution for resources). FLAME GPU 2 allows re-usable sub models to be described for such behaviours so that it can be abstracted from the rest of the model function.
 
 <!-- For an introduction to FLAME GPU2 and its current features please view the GTC 2021 recorded talk by Paul Richmond (embedded below). -->
 

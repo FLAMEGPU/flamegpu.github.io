@@ -6,6 +6,8 @@ header:
   actions:
     - label: "Download"
       url: "/download/"
+    - label: "GitHub"
+      url: "https://github.com/FLAMEGPU/FLAMEGPU2/"
 excerpt: "The Flexible Large Scale Agent Modelling Environment for the Graphics Processing Unit (GPU)"
 feature_row:
   - image_path: /assets/images/gpu_birds_square.png
@@ -50,7 +52,6 @@ This allows simulation of far larger model sizes with high performance at a frac
 <!-- Custom feature row implementation for flexbox. -->
 
 <div class="flex_feature_container">
-
   {% for f in feature_row %}
     <div class="flex_feature_item">
       {% if f.image_path %}
