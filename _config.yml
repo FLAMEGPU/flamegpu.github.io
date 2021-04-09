@@ -25,7 +25,7 @@ url                      : https://www.flamegpu.com
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "FLAMEGPU/flamegpu.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : #"/assets/images/flamegpu_logo.png"
+logo                     : "/assets/images/flamegpu_logo.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -104,6 +104,9 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:&#112;&#046;&#114;&#105;&#099;&#104;&#109;&#111;&#110;&#100;&#064;&#115;&#104;&#101;&#102;&#102;&#105;&#101;&#108;&#100;&#046;&#097;&#099;&#046;&#117;&#107;"
+    - label: "The University of Sheffield, UK"
+      icon: "fas fa-fw fa-map-marker-alt"
+      url: "https://sheffield.ac.uk"
     # - label: "Website"
     #   icon: "fas fa-fw fa-link"
     #   url: "http://www.flamegpu.com"
@@ -179,7 +182,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/London # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -249,8 +252,8 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: single
-      author_profile: true
+      layout: splash
+      author_profile: false
       read_time: false
       comments: false
       share: false

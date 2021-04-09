@@ -33,6 +33,16 @@
     white-space: nowrap;
 }
 
+// Stop footer links being uppercase
+.page__footer-follow li {
+    text-transform: none;
+}
+
+// Make the logo in the header larger (50%) while still relative to text size.
+.site-logo img {
+    max-height: 3rem;
+}
+
 // Flexbox based custom version of what was the feature wrapper.
 // uses the breakpoint mixings vendored in by minimal mistakes, which can be use in conjunctions with teh sizes in _variables.scss
 // $small, $medium, $medium-wide, $large, $x-large, $max-width
@@ -96,6 +106,14 @@
     .flex_feature_item {
         @include breakpoint($medium) {
             flex: 0 0 33.3333%;
+        }
+    }   
+}
+
+.flex_feature_container.xlarge-4-col {
+    .flex_feature_item {
+        @include breakpoint($x-large) {
+            flex: 0 0 25%;
         }
     }   
 }
