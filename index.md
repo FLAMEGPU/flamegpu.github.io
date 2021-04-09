@@ -1,8 +1,7 @@
 ---
-title: "FLAMEGPU II is here..."
+title: "FLAME GPU 2 is here..."
 layout: splash
 header:
-  overlay_color: "#4d4d4d"
   overlay_particles: true
   actions:
     - label: "Download"
