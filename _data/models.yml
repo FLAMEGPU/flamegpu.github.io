@@ -2,14 +2,14 @@
   description: "Performance benchmarking of the Circles model using the C++ and C++ RTC interfaces and different communication strategies at various scales"
   image_url:
   video_url:
-  github_url: https://github.com/flamegpu/FLAMEGPU2-concurrency-benchmark
+  github_url: https://github.com/flamegpu/FLAMEGPU2-circles-benchmark
   language: C++
 
 - name: "Concurrency Benchmark"
   description: "Performance benchmarking of concurrency within FLAME GPU 2"
   image_url:
   video_url:
-  github_url: https://github.com/flamegpu/FLAMEGPU2-circles-benchmark
+  github_url: https://github.com/flamegpu/FLAMEGPU2-concurrency-benchmark
   language: C++
 
 - name: "Ensemble Benchmark"
