@@ -73,7 +73,7 @@ naver_site_verification  :
 analytics:
   provider               : google # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : G-R1LDDWHVNH
+    tracking_id          : UA-194486162-1
     anonymize_ip         : true
 
 
