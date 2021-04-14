@@ -12,9 +12,10 @@ FLAME GPU started in the early days of general purpose computing on GPUs. GPU ha
  * **Model Ensembles** - The ability to run ensembles of models. I.e. the same model with different parameters or random seeds. This is necessary within stochastic simulation and FLAME GPU allows the specification of ensembles to occupy multiple devices on a single computing node.
  * **Sub models** - Certain behaviours in FLAME GPU require iterative processes to ensure reproducibility with serial counterparts (e.g. conflict resolution for resources). FLAME GPU 2 allows re-usable sub models to be described for such behaviours so that it can be abstracted from the rest of the model function.
 
-For an introduction to FLAME GPU2 and its current features please view the GTC 2021 recorded talk by Paul Richmond (embedded below).
+For an introduction to FLAME GPU2 and its current features please view the [GTC 2021 recorded talk](https://gtc21.event.nvidia.com/media/Simulate%20the%20World%20and%20Everything%20in%20it%3A%20Complex%20Systems%20Simulations%20with%20FGPU2%20%5BE31281%5D/1_jq4vdfcg) (requires free registration) by Paul Richmond (youtube copy embedded below).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NRRW6EDClYM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 FLAME GPU 2 is available under the permissive MIT licence. For commercial consultancy using the software please [contact us](/contact/).
 
