@@ -11,14 +11,19 @@ The website is hosted on GitHub Pages and can be found at [https://flamegpu.gith
 1. Install Ruby
     * On Windows, this installer can be used [https://rubyinstaller.org/](https://rubyinstaller.org/)
     * On Linux, follow the instructions according to your distribution e.g. for Debian/Ubuntu:
+
         ```sh
         sudo apt install ruby-full
         ```
+
 2. Install `bundler` (via a terminal):
+
    ```sh
    gem install bundler jekyll
    ```
+
 3. Install other dependencies:
+
     ```sh
     cd path/to/clone/of/this/repo
     bundle config set path vendor/bundle
@@ -64,7 +69,7 @@ Generated HTML files can be found in `_site`.
 
 The website uses a data file to dynamically display details of FLAME GPU publications and citations respectively. To populate these data files there is a provided python script (`citations.py`) which uses the [scholarly](https://pypi.org/project/scholarly/) Pythoin package to scrape the details from the web. To run this script use the instructions below. 
 
-*Note: The script is not run as part of the site build as it will likely fail due to aggressive bot detection*
+> *Note: The script is not run as part of the site build as it will likely fail due to aggressive bot detection*
 
 ### Install dependencies
 
