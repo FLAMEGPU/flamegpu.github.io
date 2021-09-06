@@ -1,5 +1,5 @@
 ---
-title: "FLAME GPU 2 is here..."
+title: "FLAME GPU 2"
 layout: splash
 header:
   overlay_particles: true

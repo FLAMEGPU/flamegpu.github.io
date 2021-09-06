@@ -19,9 +19,16 @@
   github_url: https://github.com/flamegpu/FLAMEGPU2-ensemble-benchmark
   language: C++
 
-- name: "FLAME GPU 2 Model Template"
-  description: "The template repository which can be used as a starting point for FLAME GPU 2 models"
+- name: "CUDA C++ Model Template"
+  description: "The template repository which can be used as a starting point for CUDA C++ FLAME GPU 2 models"
   image_url:
   video_url:
   github_url: https://github.com/flamegpu/FLAMEGPU2-example-template
   language: C++
+
+- name: "Python Model Template"
+  description: "The template repository which can be used as a starting point for python FLAME GPU 2 models"
+  image_url:
+  video_url:
+  github_url: https://github.com/FLAMEGPU/FLAMEGPU2-python-example-template
+  language: Python
