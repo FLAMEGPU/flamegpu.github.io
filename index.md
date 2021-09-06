@@ -8,6 +8,8 @@ header:
       url: "/download/"
     - label: "GitHub"
       url: "https://github.com/FLAMEGPU/FLAMEGPU2/"
+    - label: "Docs"
+      url: "https://docs.flamegpu.com"
 excerpt: "The Flexible Large Scale Agent Modelling Environment for the Graphics Processing Unit (GPU)"
 feature_row:
   - image_path: /assets/images/gpu_birds_square.png
