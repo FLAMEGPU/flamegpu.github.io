@@ -33,19 +33,20 @@ feature_row:
     btn_label: "Goto GitHub"   	
 ---
 
-![FLAME GPU 2 logo]({{ "/assets/images/fgpu2_icon_256.png" | relative_url }}){: .align-right} 
+![FLAME GPU 2 logo]({{ "/assets/images/fgpu2_icon_256.png" | relative_url }}){: .align-right}
 
-FLAME GPU is a GPU accelerated simulator for domain independent complex systems simulations. 
-Version 2 brings a complete re-write of the existing library offering greater flexibility, an improved interface for agent scripting and better research software engineering.
+FLAME GPU is a GPU accelerated simulator for domain independent complex systems simulations.
+Version 2 brings a complete re-write of the existing library offering greater flexibility, an improved interface for agent scripting, CUDA C++ & python3  interfaces and better research software engineering.
 
-FLAME GPU provides a mapping between a formal agent specifications with C based scripting and optimised CUDA code. 
-This includes a number of key ABM building blocks such as multiple agent types, agent communication and birth and death allocation. 
+FLAME GPU provides a mapping between a formal agent specifications with C based scripting and optimised CUDA code.
+This includes a number of key ABM building blocks such as multiple agent types, agent communication and birth and death allocation.
 
+The advantages of our contribution are three fold.
 
-The advantages of our contribution are three fold. 
-+ Firstly Agent Based (AB) modellers are able to focus on specifying agent behaviour and run simulations without explicit understanding of CUDA programming or GPU optimisation strategies. 
-+ Secondly simulation performance is significantly increased in comparison with desktop CPU alternatives. 
-This allows simulation of far larger model sizes with high performance at a fraction of the cost of grid based alternatives. 
++ Firstly Agent Based (AB) modellers are able to focus on specifying agent behaviour and run simulations without explicit understanding of CUDA programming or GPU optimisation strategies.
+
++ Secondly simulation performance is significantly increased in comparison with desktop CPU alternatives.
+This allows simulation of far larger model sizes with high performance at a fraction of the cost of grid based alternatives.
 + Finally massive agent populations can be visualised in real time as agent data is already located on the GPU hardware.
 
 <!-- {% include feature_row %} -->
