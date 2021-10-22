@@ -19,7 +19,7 @@ The website is hosted on GitHub Pages and can be found at [https://flamegpu.gith
 2. Install `bundler` (via a terminal):
 
    ```sh
-   gem install bundler jekyll
+   gem install bundler
    ```
 
 3. Install other dependencies:
