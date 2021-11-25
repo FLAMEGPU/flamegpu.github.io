@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "flamegpu" # "air", "aqua", "contrast", "dark", "dirt
 locale                   : "en-UK"
 title                    : "FLAME GPU"
 title_separator          : "-"
-subtitle                 : FLexible Agent Modelling Environment for GPUs 
+subtitle                 : Flexible Large-scale Agent Modelling Environment for GPUs 
 name                     : "Paul Richmond (University of Sheffield)"
 description              : "FLAME GPU Agent Based Simulation Software"
 url                      : https://www.flamegpu.com
