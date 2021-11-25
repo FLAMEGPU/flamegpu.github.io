@@ -1,5 +1,5 @@
 ---
-title: "FLAME GPU 2"
+title: ""
 layout: splash
 header:
   overlay_particles: true
@@ -12,7 +12,7 @@ header:
       url: "https://docs.flamegpu.com"
     - label: "Try on Colab"
       url: "https://colab.research.google.com/github/FLAMEGPU/FLAMEGPU2-tutorial-python/blob/google-colab/FLAME_GPU_2_python_tutorial.ipynb"
-excerpt: "The Flexible Large Scale Agent Modelling Environment for the Graphics Processing Unit (GPU)"
+excerpt: "The Flexible Large-scale Agent Modelling Environment for the Graphics Processing Unit (GPU)"
 feature_row:
   - image_path: /assets/images/gpu_birds_square.png
     alt: "About FLAME GPU"
