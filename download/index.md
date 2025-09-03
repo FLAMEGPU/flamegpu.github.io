@@ -2,26 +2,29 @@
 title: "Download FLAME GPU"
 ---
 
-## FLAME GPU 2.x
+## FLAME GPU 2+
 
-[![FLAME GPU 2 logo]({{ "/assets/images/fgpu2_icon_256.png" | relative_url }})](https://github.com/FLAMEGPU/FLAMEGPU2){: .align-right .no-shadow}
-FLAME GPU 2 is currently in an pre-release (alpha) state, and although we hope there will not be significant changes to the API prior to a stable release there may be breaking changes as we fix issues, adjust the API and improve performance.
+The simplest and recommend way to install FLAME GPU 2+ is to install our pre-built python binary wheels using our [wheelhouse](https://whl.flamegpu.com/). E.g. to install the latest pyflamegpu build for CUDA 12.0+ with visualiastion:
 
-It is mostly feature complete with FLAME GPU 1 but may not meet the same levels of performance for all use cases.
-This is a result of the vastly more flexible interface used to template generated code.
-Performance is generally still very close to or better than FLAME GPU 1 and optimisations are always being added.
+```
+python3 -m pip install --extra-index-url https://whl.flamegpu.com/whl/cuda120-vis/ pyflamegpu
+```
 
-FLAME GPU 2 uses [CMake](https://cmake.org) as a cross-platform build system, with support for Windows via Visual Studio and for linux systems via make, with support for CUDA 11.0+.
-Please see the [readme](https://github.com/FLAMEGPU/FLAMEGPU2) for further information on the dependencies of FLAME GPU 2 and the model development process.
+Please see the [Release Notes](https://github.com/FLAMEGPU/FLAMEGPU2/releases/latest) for more information.
 
-To use FLAME GPU 2, you can either start by consider starting with one of the standalone [models](../models), or create a new standalone model based on the [template repository](https://github.com/FLAMEGPU/FLAMEGPU2-example-template) or by downloading and building the main [FLAME GPU 2](https://github.com/FLAMEGPU/FLAMEGPU2) project and follow the instructions in the readme.
+To build FLAME GPU 2+ or develop using C++, you can either start by consider starting with one of the standalone [models](../models), or create a new standalone model based on the [template repository](https://github.com/FLAMEGPU/FLAMEGPU2-example-template) or by downloading and building the main [FLAME GPU 2](https://github.com/FLAMEGPU/FLAMEGPU2) project and follow the instructions in the readme. FLAME GPU 2 uses [CMake](https://cmake.org) as a cross-platform build system, with support for Windows via Visual Studio and for Linux systems via make, with support for CUDA 12.0+. Please see the [readme](https://github.com/FLAMEGPU/FLAMEGPU2) for further information on the dependencies of FLAME GPU 2 and the model development process.
 
-Pre-built python 3.6+ binary wheels are now available on some platforms. Please see the [Release Notes](https://github.com/FLAMEGPU/FLAMEGPU2/releases/latest) for more information.
+FLAME GPU 2 is released under a [dual licence of AGPL v3.0 and a commercial licence](./licence). Pre-release versions were previously distributed under MIT.
 
-## FLAME GPU 1.x
+*Note: FLAME GPU 2 refers to Versions 2+ as opposed to the legacy 1.x version of FLAME GPU*
+
+
+
+## FLAME GPU 1.x (Legacy Versions)
 
 [![FLAME GPU 1 logo]({{ "/assets/images/flame_gpu_v1.jpg" | relative_url }})](https://github.com/FLAMEGPU/FLAMEGPU){: .align-right .no-shadow} 
-FLAME GPU 1.x releases are still available to download and use, although there are no plans for further development of FLAME GPU 1.
+FLAME GPU 2 is designed on the same concepts and ideas of FLAME GPU 1 with a similar but vastly improved interface and wider variety of features. FLAME GPU 1.x releases are still available to download and use, although it should be considered legacy software and there are no plans for further development or maintenance of FLAME GPU 1.
+
 The latest release, FLAME GPU 1.5 supports CUDA 10.2 with Visual Studio 2015/2019 on windows and Make on Linux). 
 CUDA 11.0+ is unsupported.
 
