@@ -9,7 +9,7 @@ permalink: "cla"
 
 Thank you for your interest in contributing to University of Sheffield's FLAME GPU Software ("We" or "Us").
 
-The purpose of this contributor agreement ("Agreement") is to clarify and document the rights granted by contributors to Us. To make this document effective, please follow the instructions via our CLA Bot when submitting a pull request via https://github.com/FLAMEGPU/FLAMEGPU2/compare.
+The purpose of this contributor agreement ("Agreement") is to clarify and document the rights granted by contributors to Us. To make this document effective, please follow the instructions via our CLA Bot when submitting a pull request via [https://github.com/FLAMEGPU/FLAMEGPU2/compare](https://github.com/FLAMEGPU/FLAMEGPU2/compare).
 
 ### How to use this Contributor Agreement
 
