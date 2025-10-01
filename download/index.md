@@ -14,7 +14,7 @@ Please see the [Release Notes](https://github.com/FLAMEGPU/FLAMEGPU2/releases/la
 
 To build FLAME GPU 2+ or develop using C++, you can either start by consider starting with one of the standalone [models](../models), or create a new standalone model based on the [template repository](https://github.com/FLAMEGPU/FLAMEGPU2-example-template) or by downloading and building the main [FLAME GPU 2](https://github.com/FLAMEGPU/FLAMEGPU2) project and follow the instructions in the readme. FLAME GPU 2 uses [CMake](https://cmake.org) as a cross-platform build system, with support for Windows via Visual Studio and for Linux systems via make, with support for CUDA 12.0+. Please see the [readme](https://github.com/FLAMEGPU/FLAMEGPU2) for further information on the dependencies of FLAME GPU 2 and the model development process.
 
-*Note: FLAME GPU 2 is released under a [dual licence of AGPL v3.0 and a commercial licence](./licence). Pre-release versions were previously distributed under MIT. Contributions require a digital signature (via a GitHub CLA bot) of our [Contributor Licence Agreement](./cla).*
+*Note: FLAME GPU 2 is released under a [dual licence of AGPL v3.0 and a commercial licence](./licence). Pre-release versions were previously distributed under MIT. Contributions require a digital signature (via a GitHub CLA bot) of our [Contributor Licence Agreement](../cla).*
 
 
 
