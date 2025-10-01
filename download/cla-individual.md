@@ -1,21 +1,19 @@
 ---
 title: "Contributor Licence Agreement"
-permalink: "download/cla"
+permalink: "cla"
 ---
 
 # Contributor Licence Agreement
 
 ## Individual Contributor Exclusive License Agreement
 
-## (including the Traditional Patent License OPTION)
-
 Thank you for your interest in contributing to University of Sheffield's FLAME GPU Software ("We" or "Us").
 
-The purpose of this contributor agreement ("Agreement") is to clarify and document the rights granted by contributors to Us. To make this document effective, please follow the instructions at https://github.com/FLAMEGPU.
+The purpose of this contributor agreement ("Agreement") is to clarify and document the rights granted by contributors to Us. To make this document effective, please follow the instructions via our CLA Bot when submitting a pull request via https://github.com/FLAMEGPU/FLAMEGPU2/compare.
 
 ### How to use this Contributor Agreement
 
-If You are an employee and have created the Contribution as part of your employment, You need to have Your employer approve this Agreement or sign the Entity version of this document. If You do not own the Copyright in the entire work of authorship, any other author of the Contribution should also sign this – in any event, please contact Us at p.richmond@sheffield.ac.uk
+If You are an employee and have created the Contribution as part of your employment, You need to have Your employer approve this Agreement or sign the Entity version of this document by contacting p.richmond@sheffield.ac.uk. Entity contributions can not be processed via the CLA bot. If You do not own the Copyright in the entire work of authorship, any other author of the Contribution should also sign this – in any event, please contact Us at p.richmond@sheffield.ac.uk
 
 ### 1\. Definitions
 
@@ -93,7 +91,7 @@ IF THE DISCLAIMER AND DAMAGE WAIVER MENTIONED IN SECTION 4. AND SECTION 5. CANNO
 
 ### 8 Miscellaneous
 
-8.1 This Agreement and all disputes, claims, actions, suits or other proceedings arising out of this agreement or relating in any way to it shall be governed by the laws of Worldwide excluding its private international law provisions.
+8.1 This Agreement and all disputes, claims, actions, suits or other proceedings arising out of this agreement or relating in any way to it shall be governed by the laws of the United Kingdom of Great Britain and Northern Ireland excluding its private international law provisions.
 
 8.2 This Agreement sets out the entire agreement between You and Us for Your Contributions to Us and overrides all other agreements or understandings.
 
