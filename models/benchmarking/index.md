@@ -1,13 +1,18 @@
 ---
-title: "FLAME GPU 2 Case Studies"
-permalink: "models"
+title: "FLAME GPU 2 Models"
+permalink: "models/benchmarking"
 ---
 
-TODO
+FLAME GPU 2 models can be contained in their own source code repositories. 
+This page provides a selection of models implemented in FLAME GPU 2, which can be built following the instructions provided with each repository.
 
-<!-- Completely custom html / css, because undoing feature-row is a lot of effort.  -->
+If you would like to contribute your own model to this page you should use the FLAME GPU 2 example template and then [contact us](../contact) to include your model.
+
+FLAME GPU 1.x models are included with the FLAME GPU 1.x SDK, which can be found via the  [download](../download) page.
+
+<!-- Compeltely custom html / css, because undoing feature-row is a lot of effort.  -->
 <div class="flex_feature_container small-2-col medium-3-col">
-  {% for m in site.data.models %}
+  {% for m in site.data.benchmarks %}
     <div class="flex_feature_item">
       <div class="flex_feature_item_teaser">
         {% if m.image_url %}
@@ -27,11 +32,8 @@ TODO
         </div>
       </div>
       <div class="flex_feature_item_footer">
-        {% if m.more_url %}
-          <a href="{{ m.more_url }}" class="btn btn--primary">More</a>
-        {% endif %}
-        {% if m.video_url %}
-          <a href="{{ m.video_url }}" class="btn btn--primary">Video</a>
+        {% if m.github_url %}
+          <a href="{{ m.github_url }}" class="btn btn--primary">GitHub</a>
         {% endif %}
       </div>
     </div>
