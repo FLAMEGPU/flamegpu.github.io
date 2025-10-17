@@ -1,9 +1,9 @@
 ---
-title: "Patient-specific Muti-Scale Tumor Growth Modelling"
+title: "Patient-specific Multi-Scale Tumor Growth Modelling"
 permalink: "models/tumor-modelling"
 ---
 
-![Patient-specific Muti-Scale Tumor Growth Modelling]({{ "/assets/images/models/primage.png" | relative_url }}){: .align-right .no-shadow} 
+![Patient-specific Multi-Scale Tumor Growth Modelling]({{ "/assets/images/models/primage.png" | relative_url }}){: .align-right .no-shadow} 
 
 FLAME GPU has been utilised within the PRIMAGE project (an EU project with 16 european partners) to provide cellular level modelling as part of a multi scale simulation approach for studying neuroblastoma, a type of childhood cancer. As part of a cloud based orchestrated approach, FLAME GPU provides the backend to the most computationally intense elements of the project which can be orchestrated to execute on High Performance Computing facilities. The performance allows for simulations running over extended periods of time using patient specific data to support clinical decision making.
 

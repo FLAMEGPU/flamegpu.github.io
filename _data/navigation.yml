@@ -4,12 +4,19 @@ main:
     url: /download/
   - title: "About"
     url: /about/
-  # - title: "Projects"
-  #  url: /projects/
   - title: "Models"
     url: /models/
   - title: "Documentation"
     url: /documentation/
   - title: "Contact"
     url: /contact/
-      
+
+models:
+  - title: Models
+    children:
+     - title: "Case Studies"
+       url: /models/
+     - title: "Benchmarks"
+       url: /models/benchmarking
+     - title: "Templates"
+       url: /models/templates/   

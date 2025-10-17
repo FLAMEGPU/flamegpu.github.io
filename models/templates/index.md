@@ -1,13 +1,13 @@
 ---
 title: "FLAME GPU 2 Models"
-permalink: "models/benchmarking"
+permalink: "models/templates"
 ---
 
-In order to evaluate the performance of FLAME GPU a number of benchmarking models exist which evaluate different scaling aspects of FLAME GPUs features. 
+The following templates are provided as a starting point for creating new FLAME GPU models.
 
 <!-- Compeltely custom html / css, because undoing feature-row is a lot of effort.  -->
 <div class="flex_feature_container small-2-col medium-3-col">
-  {% for m in site.data.benchmarks %}
+  {% for m in site.data.templates %}
     <div class="flex_feature_item">
       <div class="flex_feature_item_teaser">
         {% if m.image_url %}
