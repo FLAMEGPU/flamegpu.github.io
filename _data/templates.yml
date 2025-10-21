@@ -6,7 +6,7 @@
   language: C++
 
 - name: "Python Model Template"
-  description: "The template repository which can be used as a starting point for python FLAME GPU 2 models"
+  description: "The template repository which can be used as a starting point for Python FLAME GPU 2 models"
   image_url:
   video_url:
   github_url: https://github.com/FLAMEGPU/FLAMEGPU2-python-example-template
