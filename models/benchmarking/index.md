@@ -1,6 +1,5 @@
 ---
 title: "FLAME GPU 2 Models"
-permalink: "models/benchmarking"
 ---
 
 In order to evaluate the performance of FLAME GPU a number of benchmarking models exist which evaluate different scaling aspects of FLAME GPUs features. 

@@ -1,6 +1,5 @@
 ---
 title: "FLAME GPU 2 Case Studies"
-permalink: "models"
 ---
 
 FLAME GPU has been used within a wide range of industrial and research applications. Some examples are presented below.

@@ -1,6 +1,5 @@
 ---
 title: "FLAME GPU 2 Models"
-permalink: "models/templates"
 ---
 
 The following templates are provided as a starting point for creating new FLAME GPU models.
