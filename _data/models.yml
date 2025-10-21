@@ -1,34 +1,29 @@
-- name: "Circles Benchmark"
-  description: "Performance benchmarking of the Circles model using the C++ and C++ RTC interfaces and different communication strategies at various scales"
-  image_url:
-  video_url:
-  github_url: https://github.com/flamegpu/FLAMEGPU2-circles-benchmark
-  language: C++
+- name: "Digital Twinning of Urban Transportation Systems with Fujitsu Research Europe"
+  description: "A road network simulation model of vehicles and junctions to create a digital twin of the Isle of Wight."
+  image_url: /assets/images/models/digital-twinning-tile.png
+  video_url: https://www.youtube.com/watch?v=hZPDgZZP5TM
+  more_url: /models/digital-twinning
 
-- name: "Concurrency Benchmark"
-  description: "Performance benchmarking of concurrency within FLAME GPU 2"
-  image_url:
-  video_url:
-  github_url: https://github.com/flamegpu/FLAMEGPU2-concurrency-benchmark
-  language: C++
+- name: "Simulating Plastic Strain Accumulation in Rail Steel"
+  description: "A model of plastic strain accumulation in rail steels to understand structural failures."
+  image_url: /assets/images/models/rail-steel-tile.png
+  video_url: https://www.youtube.com/watch?v=_jRZMfsbwsw
+  more_url: /models/rail-steel
+  
+- name: "Patient-specific Multi-Scale Tumor Growth Modelling"
+  description: "Cellular level modelling as part of a multi scale simulation approach for studying neuroblastoma"
+  image_url: /assets/images/models/primage-tile.png
+  video_url: https://vimeo.com/607559004/2f944666ad?fl=pl&fe=vl
+  more_url: /models/tumor-modelling
 
-- name: "Ensemble Benchmark"
-  description: "Demonstration of the ensembles feature of FLAME GPU 2"
-  image_url:
-  video_url:
-  github_url: https://github.com/flamegpu/FLAMEGPU2-ensemble-benchmark
-  language: C++
+- name: "Testing Interventions for Infectious Disease Spread within Buildings"
+  description: "Large-scale epidemiological models of infectious disease spread within buildings"
+  image_url: /assets/images/models/forge4flame-tile.png
+  video_url: https://www.youtube.com/watch?v=H_RMj3LmD18
+  more_url: /models/forge4flame
 
-- name: "CUDA C++ Model Template"
-  description: "The template repository which can be used as a starting point for CUDA C++ FLAME GPU 2 models"
-  image_url:
-  video_url:
-  github_url: https://github.com/flamegpu/FLAMEGPU2-example-template
-  language: C++
-
-- name: "Python Model Template"
-  description: "The template repository which can be used as a starting point for python FLAME GPU 2 models"
-  image_url:
-  video_url:
-  github_url: https://github.com/FLAMEGPU/FLAMEGPU2-python-example-template
-  language: Python
+- name: "Improving Passenger Boarding Rate and Reducing Risk at the Platform Train Interface "
+  description: "Evaluating how rolling stock characteristics such as door width and carriage layout affect passenger movement."
+  image_url: /assets/images/models/ratesetter-tile.png
+  video_url: https://www.youtube.com/watch?v=pvhDlSd1gyo
+  more_url: /models/ratesetter

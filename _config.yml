@@ -239,13 +239,6 @@ compress_html:
     envs: development
 
 
-# Collections
-collections:
-  projects:
-    output: true
-    permalink: /:collection/:path/
-
-
 # Defaults
 defaults:
   # default page (where no layout is specified)
@@ -263,19 +256,19 @@ defaults:
         overlay_color: "#4d4d4d"
         overlay_particles: true
       classes: wide
-  # _projects
+  # models
   - scope:
-      path: "_projects"
-      type: projects
+      path: "models"
     values:
       layout: single
       author_profile: false
-      read_time: true
-      comments: # true
+      read_time: false
+      comments: false
       share: false
       related: false
+      toc: false
       sidebar:
-        nav: "projects"
+        nav: "models"
 
 # scripts to include in head    
 head_scripts:
