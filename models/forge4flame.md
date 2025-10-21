@@ -17,6 +17,6 @@ By running large-scale epidemiological models of infectious disease spread withi
 
 ## More Information
 
- - Baccega, Daniele, et al. "Forge4Flame: An Intuitive Dashboard for Designing GPU Agent-Based Models to Simulate Infectious Disease Spread." Available at SSRN 5194584. https://doi.org/10.1016/j.simpat.2025.103205* [Research Paper](hhttps://doi.org/10.1016/j.simpat.2025.103205) 
+ - Baccega, Daniele, et al. "Forge4Flame: An Intuitive Dashboard for Designing GPU Agent-Based Models to Simulate Infectious Disease Spread." Available at SSRN 5194584. https://doi.org/10.1016/j.simpat.2025.103205* [Research Paper](https://doi.org/10.1016/j.simpat.2025.103205) 
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/H_RMj3LmD18?si=ifs1Wrjfm_wAVa1D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
