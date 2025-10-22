@@ -1,6 +1,6 @@
 ---
 title: "FLAME GPU 2 License"
-permalink: "licence"
+permalink: "download/licence"
 ---
 
 The most recent (and future) versions of FLAME GPU 2 are available under a dual license (AGPL v3.0 and commercial). Previous versions of FLAME GPU were distributed under MIT.
