@@ -1,8 +1,8 @@
 ---
-title: "Contributor Licence Agreement"
+title: "Contributor License Agreement"
 ---
 
-# Contributor Licence Agreement
+# Contributor License Agreement
 
 ## Individual Contributor Exclusive License Agreement
 
