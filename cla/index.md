@@ -1,6 +1,5 @@
 ---
 title: "Contributor Licence Agreement"
-permalink: "cla"
 ---
 
 # Contributor Licence Agreement
