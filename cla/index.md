@@ -1,9 +1,8 @@
 ---
-title: "Contributor Licence Agreement"
-permalink: "cla"
+title: "Contributor License Agreement"
 ---
 
-# Contributor Licence Agreement
+# Contributor License Agreement
 
 ## Individual Contributor Exclusive License Agreement
 
