@@ -10,7 +10,7 @@ header:
       url: "https://github.com/FLAMEGPU/FLAMEGPU2/"
     - label: "Docs"
       url: "https://docs.flamegpu.com"
-     - label: "Try on Colab"
+    - label: "Try on Colab"
        url: "https://colab.research.google.com/github/FLAMEGPU/FLAMEGPU2-tutorial-python/blob/google-colab/FLAME_GPU_2_python_tutorial.ipynb"
 excerpt: "The Flexible Large-scale Agent Modelling Environment for the Graphics Processing Unit (GPU)"
 feature_row:
