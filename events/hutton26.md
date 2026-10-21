@@ -23,7 +23,9 @@ You will not need a GPU-enabled laptop (but if you have one, feel free to bring 
  - Slides - An Introduction to FLAME GPU ([pdf](https://drive.google.com/file/d/1ZYK1ONElmkirQB2FA5faQtkWpfaCejEm/view?usp=drive_link))
  - Tutorial 1: Fire ([Colab](https://colab.research.google.com/github/FLAMEGPU/FLAMEGPU2-tutorial-fire/blob/main/FLAMEGPU-Tutorial-Fire.ipynb), [InstanceHub](https://www.instancehub.com/labs/8/), [GitHub](https://github.com/FLAMEGPU/FLAMEGPU2-tutorial-fire))
  - Slides - Advanced FLAME GPU ([pdf](https://drive.google.com/file/d/144MYrkgUBD1iTLcT-ocykLKOR7okuW0v/view?usp=drive_link))
- - Tutorial 2: Sugarscape and Conflict ([Colab](https://colab.research.google.com/github/FLAMEGPU/FLAMEGPU2_python_sugarscape_tutorial/blob/CUDA13/FLAMEGPU-Tutorial.ipynb), [InstanceHub](https://www.instancehub.com/labs/9/), [GitHub](https://github.com/FLAMEGPU/FLAMEGPU2_python_sugarscape_tutorial))
+ - Tutorial 2: Sugarscape and Conflict ([Colab](https://colab.research.google.com/github/FLAMEGPU/FLAMEGPU2_python_sugarscape_tutorial/blob/main/FLAMEGPU-Tutorial.ipynb), [InstanceHub](https://www.instancehub.com/labs/9/), [GitHub](https://github.com/FLAMEGPU/FLAMEGPU2_python_sugarscape_tutorial))
+ - Bonus Tutorial: Predator Prey Model ([Colab](https://colab.research.google.com/github/FLAMEGPU/FLAMEGPU2-tutorial-python/blob/main/FLAME_GPU_2_python_tutorial.ipynb), [InstanceHub](https://www.instancehub.com/labs/10/), [GitHub](https://github.com/FLAMEGPU/FLAMEGPU2-tutorial-python))
+
 
 
 You can attend for just the first of the two sessions, but priority will be given to those who want to attend the whole thing. Otherwise, first-come, first-served. To attend the whole thing, you would need to arrive on the evening of 26 October and depart the morning of 30 October.
